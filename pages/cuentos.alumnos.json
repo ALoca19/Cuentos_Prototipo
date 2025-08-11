@@ -1,0 +1,169 @@
+[{
+  "_id": {
+    "$oid": "674c0c4913f036617111a32f"
+  },
+  "Nombre": "aaa",
+  "Edad": "3",
+  "Escuela": "a",
+  "Grado": "a",
+  "respuestas": {
+    "01": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "C",
+      "C",
+      "C",
+      "C",
+      "C",
+      "C",
+      "C",
+      "C",
+      "a",
+      "a",
+      "",
+      ""
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674c0cc36ae11509edc45970"
+  },
+  "Nombre": "bb",
+  "Edad": "1",
+  "Escuela": "bb",
+  "Grado": "bb",
+  "respuestas": {
+    "01": [
+      "C",
+      "N",
+      "C",
+      "N",
+      "D",
+      "bb",
+      "b",
+      "N",
+      "N"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674c0cebdbb44d4c3288e4b6"
+  },
+  "Nombre": "b",
+  "Edad": "2",
+  "Escuela": "b",
+  "Grado": "b",
+  "respuestas": {
+    "01": [
+      "C",
+      "",
+      "A",
+      "",
+      "C",
+      "b",
+      "",
+      "b",
+      ""
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674c0df8c323813238d1a6b6"
+  },
+  "Nombre": "Paulina",
+  "Edad": "25",
+  "Escuela": "pedro",
+  "Grado": "5",
+  "respuestas": {
+    "01": [
+      "B",
+      "",
+      "A",
+      "",
+      "B",
+      "",
+      "asrg",
+      "",
+      "asrg"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674c0e2ac323813238d1a6b7"
+  },
+  "Nombre": "Paulina",
+  "Edad": "25",
+  "Escuela": "Pedro",
+  "Grado": "5",
+  "respuestas": {
+    "01": [
+      "B",
+      "A",
+      "D",
+      "A",
+      "C",
+      "sg",
+      "drg",
+      "drg",
+      "rdg"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674c0e79c323813238d1a6b8"
+  },
+  "Nombre": "rdg",
+  "Edad": "25",
+  "Escuela": "fn",
+  "Grado": "fn",
+  "respuestas": {
+    "03": [
+      "C",
+      "C",
+      "A",
+      "B",
+      "",
+      "fn",
+      "",
+      "",
+      ""
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6751d16225f902c209a2124e"
+  },
+  "Nombre": "Paulina",
+  "Edad": "25",
+  "Escuela": "CIMAT",
+  "Grado": "3ro",
+  "respuestas": {
+    "02": [
+      "C",
+      "B",
+      "C",
+      "B",
+      "C",
+      "No se no lo lei",
+      "Frio",
+      "Desolado",
+      "desertico"
+    ]
+  }
+}]

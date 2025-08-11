@@ -1,0 +1,68 @@
+body {
+  background: url("../images/Fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+}
+
+#tituloCreditos {
+  font-size: 24px;
+  background: #4ca1af;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.credits-modal {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.close-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #ff007f;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.close-link:hover {
+  color: #c70063;
+}
+
+.logo-container .logo {
+  max-width: 100px;
+  height: auto;
+}
+
+.modal-title {
+  font-size: 24px;
+  color: #ff007f;
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #333;
+  border: none;
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.credit-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  margin-right: 10px;
+}

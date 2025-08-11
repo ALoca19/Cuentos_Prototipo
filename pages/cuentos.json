@@ -1,0 +1,225 @@
+[
+    {
+        "NombreCuento": "Soñando con la Luna",
+        "NumeroCuento": "01",
+        "Cuestionario": [
+          {
+            "Pregunta": "¿De qué trata el cuento?"
+          },
+          {
+            "Pregunta": "¿Cómo se sintió Ana al comenzar su aventura?",
+            "Opciones": [
+              "Confundida",
+              "Asustada",
+              "Aburrida",
+              "Emocionada"
+            ],
+            "RespuestaC": "3",
+            "RespuestaI": "D"
+          },
+          {
+            "Pregunta": "¿Por qué crees que Ana sueña con el espacio después de leer un libro?",
+            "Opciones": [
+              "Porque siempre quiso ser astronauta",
+              "Porque el espacio le da miedo",
+              "Porque el libro despertó su curiosidad",
+              "Porque se quedó dormida pensando en su tarea sobre el espacio"
+            ],
+            "RespuestaC": "2",
+            "RespuestaI": "C"
+          },
+          {
+            "Pregunta": "¿Qué dos tipos de juegos de sombras describió la Luna a Ana?",
+            "Opciones": [
+              "Juego de esconderse y juego de correr",
+              "Eclipse lunar y eclipse solar",
+              "Juego de estrellas y planetas",
+              "Juego de noche y juego de día"
+            ],
+            "RespuestaC": "1",
+            "RespuestaI": "B"
+          },
+          {
+            "Pregunta": "¿Qué acontecimiento hace que la Luna desaparezca momentáneamente de la vista?",
+            "Opciones": [
+              "Cuando la Luna se pone detrás de las estrellas",
+              "Cuando la Tierra se pone entre el Sol y la Luna",
+              "Cuando la Luna se esconde detrás de la Tierra",
+              "Cuando el Sol se esconde detrás de la Luna"
+            ],
+            "RespuestaC": "1",
+            "RespuestaI": "B"
+          },
+          {
+            "Pregunta": "¿Qué similitudes existen entre los dos juegos de sombras que la Luna menciona?",
+            "Opciones": [
+              "Ambos juegos ocurren durante el día",
+              "En ambos juegos, la Luna se esconde detrás de un planeta",
+              "No existen similitudes",
+              "Ambos reflejan una sombra."
+            ],
+            "RespuestaC": "3",
+            "RespuestaI": "D"
+          },
+          {
+            "Pregunta": "¿Por qué crees que la Luna estaba contenta de jugar al juego de las sombras?"
+          },
+          {
+            "Pregunta": "¿Qué similitudes y diferencias existen entre los dos juegos de las sombras?"
+          },
+          {
+            "Pregunta": "¿Por qué es importante entender los diferentes tipos de eclipse?"
+          }
+        ]
+    },
+    
+    {
+      "NombreCuento": "La Aventura de Max",
+      "NumeroCuento": "02",
+      "Cuestionario": [
+        {
+          "Pregunta": "¿De qué trata el cuento?"
+        },
+        {
+          "Pregunta": "¿Dónde se encuentra Max en la historia?",
+          "Opciones": [
+            "En una playa",
+            "En un bosque",
+            "En una ciudad",
+            "En una montaña"
+          ],
+          "RespuestaC": "1",
+          "RespuestaI": "B"
+        },
+        {
+          "Pregunta": "¿Qué animal prepara su cueva para hibernar?",
+          "Opciones": [
+            "La ardilla",
+            "El gorrión",
+            "El oso pardo",
+            "Ninguno"
+          ],
+          "RespuestaC": "2",
+            "RespuestaI": "C"
+        },
+        {
+          "Pregunta": "¿Por qué los murciélagos hibernan en grupos grandes?",
+          "Opciones": [
+            "Para compartir historias",
+            "Para mantenerse calientes y protegidos",
+            "Para aprender unos de otros",
+            "Para ahorrar espacio"
+          ],
+          "RespuestaC": "1",
+            "RespuestaI": "B"
+        },
+        {
+          "Pregunta": "¿Por qué es importante que los animales se preparen para el invierno?",
+          "Opciones": [
+            "Para evitar que los humanos los vean",
+            "Para sobrevivir al frío y la escasez de alimentos",
+            "Para tener más tiempo para jugar",
+            "Para cambiar de hábitat"
+          ],
+          "RespuestaC": "1",
+            "RespuestaI": "B"
+        },
+        {
+          "Pregunta": "¿Qué podría pasarle a una ardilla si no recolectara suficientes nueces para el invierno?",
+          "Opciones": [
+            "Tendría que migrar como los gorriones",
+            "Tendría dificultades para encontrar comida",
+            "Se mudaría a otra cueva con los murciélagos",
+            "Dormiría todo el invierno"
+          ],
+          "RespuestaC": "1",
+            "RespuestaI": "B"
+        },
+        {
+          "Pregunta": "Describe cómo Max se siente al explorar el bosque de coníferas y conocer a los animales."
+        },
+        {
+          "Pregunta": "Explica cómo la hibernación ayuda a los osos pardos a sobrevivir el invierno."
+        },
+        {
+          "Pregunta": "Compara las diferentes formas en que los animales del cuento se preparan para el invierno. ¿Qué similitudes y diferencias encuentras?"
+        }
+      ]
+    },
+
+    {
+        "NombreCuento": "El Mago Geometrus",
+        "NumeroCuento": "03",
+        "Cuestionario": [
+          {
+            "Pregunta": "¿De qué trata el cuento?"
+          },
+          {
+            "Pregunta": "¿Qué sucedió en el mundo de las figuras al inicio de la historia?",
+            "Opciones": [
+              "Las figuras se mezclaron por un tornado.",
+              "Las figuras fueron destruidas por un terremoto.",
+              "Las figuras se volvieron invisibles.",
+              "Las figuras cambiaron de color."
+            ],
+            "RespuestaC": "0",
+            "RespuestaI": "A"
+          },
+          {
+            "Pregunta": "¿Qué forma tienen los pétalos de las flores en el jardín?",
+            "Opciones": [
+              "Cuadrados",
+              "Hexágonos",
+              "Pentágonos",
+              "Triángulos"
+            ],
+            "RespuestaC": "2",
+            "RespuestaI": "C"
+          },
+          {
+            "Pregunta": "¿Por qué el mago Geómetrus dijo que una nube era \"algo picuda\"?",
+            "Opciones": [
+              "Porque había una figura de tres lados en la nube",
+              "Porque las nubes estaban hechas de triángulos",
+              "Porque las nubes tenían ángulos rectos",
+              "Porque las nubes eran cuadradas"
+            ],
+            "RespuestaC": "0",
+            "RespuestaI": "A"
+          },
+          {
+            "Pregunta": "¿Qué podría significar que el mago Geómetrus encontrara un cuadrado en el valle triángulo?",
+            "Opciones": [
+              "Que alguien había perdido un cuadrado",
+              "Que los triángulos pueden transformarse en cuadrados",
+              "Que había una figura que no pertenecía allí",
+              "Que las montañas eran hechas de cuadrados"
+            ],
+            "RespuestaC": "2",
+            "RespuestaI": "C"
+          },
+          {
+            "Pregunta": "¿Por qué el mago Geómetrus mencionó que los hexágonos son la forma favorita de las abejas?",
+            "Opciones": [
+              "Porque los hexágonos son más fáciles de dibujar",
+              "Porque las celdas de las colmenas tienen esta forma",
+              "Porque los hexágonos tienen más vértices que los cuadrados",
+              "Porque los hexágonos son más coloridos"
+            ],
+            "RespuestaC": "1",
+            "RespuestaI": "B"
+          },
+          {
+            "Pregunta": "¿Por qué crees que es importante que las figuras estén en su lugar correcto en el mundo de Geómetrus?"
+          },
+          {
+            "Pregunta": "¿Dónde has visto figuras geométricas en tu vida diaria?"
+          },
+          {
+            "Pregunta": "¿Cómo crees que se siente Geómetrus cuando todo está en orden en el mundo de las figuras?"
+          }
+        ]
+      }
+    
+  ]
+  

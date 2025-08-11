@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de cuento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cuestionario.css">
+
+</head>
+<body>
+
+<div class="card bg-light">
+    <h2 class="text-center mb-4">Cuestionario de</h2>
+    <h2 class="text-center mb-4">"La Aventura de Max"</h2>
+
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre..." required>
+    </div>
+
+    <div class="mb-3">
+        <label for="edad" class="form-label">Edad:</label>
+        <input type="number" class="form-control" id="edad" placeholder="Escribe tu edad..." required>
+    </div>
+
+    <!-- Campo para la Escuela -->
+    <div class="mb-3">
+        <label for="escuela" class="form-label">Escuela:</label>
+        <input type="text" id="escuela" class="form-control" placeholder="Escribe el nombre de tu escuela" required>
+    </div>
+    <!-- Campo para el Grado -->
+    <div class="mb-3">
+        <label for="grado" class="form-label">Grado:</label>
+        <input type="text" id="grado" class="form-control" placeholder="Escribe tu grado escolar" required>
+    </div>
+    
+
+    <form>
+
+        
+        
+        <!-- Pregunta Abierta -->
+        <div class="mb-3">
+            <label class="form-label">Pregunta 1: ¿De qué trata el cuento?</label>
+            <input type="text" id="pregunta1" class="form-control" placeholder="Escribe tu respuesta aquí...">
+        </div>
+        
+
+        <!-- Preguntas de Opción Múltiple -->
+<div class="mb-3">
+    <label class="form-label">Pregunta 2: ¿Dónde se encuentra Max en la historia?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionA5" value="A">
+            <label class="form-check-label" for="opcionA5">En una playa</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionB5" value="B">
+            <label class="form-check-label" for="opcionB5">En un bosque</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionC5" value="C">
+            <label class="form-check-label" for="opcionC5">En una ciudad</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionD5" value="D">
+            <label class="form-check-label" for="opcionD5">En una montaña</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 3: ¿Qué animal prepara su cueva para hibernar?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionA6" value="A">
+            <label class="form-check-label" for="opcionA6">La ardilla</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionB6" value="B">
+            <label class="form-check-label" for="opcionB6">El gorrión</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionC6" value="C">
+            <label class="form-check-label" for="opcionC6">El oso pardo</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionD6" value="D">
+            <label class="form-check-label" for="opcionD6">Ninguno</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 4: ¿Por qué los murciélagos hibernan en grupos grandes?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionA7" value="A">
+            <label class="form-check-label" for="opcionA7">Para compartir historias</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionB7" value="B">
+            <label class="form-check-label" for="opcionB7">Para mantenerse calientes y protegidos</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionC7" value="C">
+            <label class="form-check-label" for="opcionC7">Para aprender unos de otros</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionD7" value="D">
+            <label class="form-check-label" for="opcionD7">Para ahorrar espacio</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 5: ¿Por qué es importante que los animales se preparen para el invierno?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionA8" value="A">
+            <label class="form-check-label" for="opcionA8">Para evitar que los humanos los vean</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionB8" value="B">
+            <label class="form-check-label" for="opcionB8">Para sobrevivir al frío y la escasez de alimentos</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionC8" value="C">
+            <label class="form-check-label" for="opcionC8">Para tener más tiempo para jugar</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionD8" value="D">
+            <label class="form-check-label" for="opcionD8">Para cambiar de hábitat</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 6: ¿Qué podría pasarle a una ardilla si no recolectara suficientes nueces para el invierno?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionA9" value="A">
+            <label class="form-check-label" for="opcionA9">Tendría que migrar como los gorriones</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionB9" value="B">
+            <label class="form-check-label" for="opcionB9">Tendría dificultades para encontrar comida</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionC9" value="C">
+            <label class="form-check-label" for="opcionC9">Se mudaría a otra cueva con los murciélagos</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionD9" value="D">
+            <label class="form-check-label" for="opcionD9">Dormiría todo el invierno</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 7: Describe cómo Max se siente al explorar el bosque de coníferas y conocer a los animales.</label>
+    <input type="text" id="pregunta7" class="form-control" placeholder="Escribe tu respuesta aquí...">
+</div>
+<div class="mb-3">
+    <label class="form-label">Pregunta 8: Explica cómo la hibernación ayuda a los osos pardos a sobrevivir el invierno.</label>
+    <input type="text" id="pregunta8" class="form-control" placeholder="Escribe tu respuesta aquí...">
+</div>
+<div class="mb-3">
+    <label class="form-label">Pregunta 9: Compara las diferentes formas en que los animales del cuento se preparan para el invierno. ¿Qué similitudes y diferencias encuentras?</label>
+    <input type="text" id="pregunta9" class="form-control" placeholder="Escribe tu respuesta aquí...">
+</div>
+
+
+        <button type="submit" class="btn btn-custom w-100 mt-4">Enviar Cuestionario</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function() {
+        window.scrollTo(0, 0);
+    };
+</script>
+
+<script src="cuestionario.js"></script>
+
+</body>
+</html>

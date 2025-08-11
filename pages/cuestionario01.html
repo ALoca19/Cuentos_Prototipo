@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de cuento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/cuestionario.css">
+
+</head>
+<body>
+<!--Sacar fecha y hora-->
+<div class="card bg-light">
+    <h2 class="text-center mb-4">Cuestionario de</h2>
+    <h2 class="text-center mb-4">"Soñando con la Luna"</h2>
+
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre..." required>
+    </div>
+
+    <div class="mb-3">
+        <label for="edad" class="form-label">Edad:</label>
+        <input type="number" class="form-control" id="edad" placeholder="Escribe tu edad..." required>
+    </div>
+
+    <!-- Campo para la Escuela -->
+    <div class="mb-3">
+        <label for="escuela" class="form-label">Escuela:</label>
+        <input type="text" id="escuela" class="form-control" placeholder="Escribe el nombre de tu escuela" required>
+    </div>
+    <!-- Campo para el Grado -->
+    <div class="mb-3">
+        <label for="grado" class="form-label">Grado:</label>
+        <input type="text" id="grado" class="form-control" placeholder="Escribe tu grado escolar" required>
+    </div>
+    
+
+    <form>
+
+        
+        
+        <!-- Pregunta Abierta -->
+        <div class="mb-3">
+            <label class="form-label">Pregunta 1: ¿De qué trata el cuento?</label>
+            <input type="text" id="pregunta1" class="form-control" placeholder="Escribe tu respuesta aquí...">
+        </div>
+        
+
+        <!-- Preguntas de Opción Múltiple -->
+<div class="mb-3">
+    <label class="form-label">Pregunta 2: ¿Cómo se sintió Ana al comenzar su aventura?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionA5" value="A">
+            <label class="form-check-label" for="opcionA5">Confundida</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionB5" value="B">
+            <label class="form-check-label" for="opcionB5">Asustada</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionC5" value="C">
+            <label class="form-check-label" for="opcionC5">Aburrida</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="planeta5" id="opcionD5" value="D">
+            <label class="form-check-label" for="opcionD5">Emocionada</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 3: ¿Por qué crees que Ana sueña con el espacio después de leer un libro?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionA6" value="A">
+            <label class="form-check-label" for="opcionA6">Porque siempre quiso ser astronauta</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionB6" value="B">
+            <label class="form-check-label" for="opcionB6">Porque el espacio le da miedo</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionC6" value="C">
+            <label class="form-check-label" for="opcionC6">Porque el libro despertó su curiosidad</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="deporte6" id="opcionD6" value="D">
+            <label class="form-check-label" for="opcionD6">Porque se quedó dormida pensando en su tarea sobre el espacio</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 4: ¿Qué dos tipos de juegos de sombras describió la Luna a Ana?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionA7" value="A">
+            <label class="form-check-label" for="opcionA7">Juego de esconderse y juego de correr</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionB7" value="B">
+            <label class="form-check-label" for="opcionB7">Eclipse lunar y eclipse solar</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionC7" value="C">
+            <label class="form-check-label" for="opcionC7">Juego de estrellas y planetas</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="instrumento7" id="opcionD7" value="D">
+            <label class="form-check-label" for="opcionD7">Juego de noche y juego de día</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 5: ¿Qué acontecimiento hace que la Luna desaparezca momentáneamente de la vista?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionA8" value="A">
+            <label class="form-check-label" for="opcionA8">Cuando la Luna se pone detrás de las estrellas</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionB8" value="B">
+            <label class="form-check-label" for="opcionB8">Cuando la Tierra se pone entre el Sol y la Luna</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionC8" value="C">
+            <label class="form-check-label" for="opcionC8">Cuando la Luna se esconde detrás de la Tierra</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="fruta8" id="opcionD8" value="D">
+            <label class="form-check-label" for="opcionD8">Cuando el Sol se esconde detrás de la Luna</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 6: ¿Qué similitudes existen entre los dos juegos de sombras que la Luna menciona?</label>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionA9" value="A">
+            <label class="form-check-label" for="opcionA9">Ambos juegos ocurren durante el día</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionB9" value="B">
+            <label class="form-check-label" for="opcionB9">En ambos juegos, la Luna se esconde detrás de un planeta</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionC9" value="C">
+            <label class="form-check-label" for="opcionC9">No existen similitudes</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transporte9" id="opcionD9" value="D">
+            <label class="form-check-label" for="opcionD9">Ambos reflejan una sombra</label>
+        </div>
+    </div>
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Pregunta 7: ¿Por qué crees que la Luna estaba contenta de jugar al juego de las sombras?</label>
+    <input type="text" id="pregunta7" class="form-control" placeholder="Escribe tu respuesta aquí...">
+</div>
+<div class="mb-3">
+    <label class="form-label">Pregunta 8: ¿Qué similitudes y diferencias existen entre los dos juegos de las sombras?</label>
+    <input type="text" id="pregunta8" class="form-control" placeholder="Escribe tu respuesta aquí...">
+</div>
+<div class="mb-3">
+    <label class="form-label">Pregunta 9: ¿Por qué es importante entender los diferentes tipos de eclipse?</label>
+    <input type="text" id="pregunta9" class="form-control" placeholder="Escribe tu respuesta aquí...">
+</div>
+
+
+        <button type="submit" class="btn btn-custom w-100 mt-4">Enviar Cuestionario</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.onload = function() {
+        window.scrollTo(0, 0);
+    };
+</script>
+
+<script src="cuestionario.js"></script>
+
+</body>
+</html>
